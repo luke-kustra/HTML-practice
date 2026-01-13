@@ -1,0 +1,21 @@
+body, h2 {
+    color: blue;
+    margin: 50px;
+    background-color: yellow;
+    padding-left: 20px;
+}
+
+.info-list {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+h1 span {
+    color: orange;
+}
+
+body::first-letter {
+    font-size: 200%;
+    color: purple;
+}
