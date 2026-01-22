@@ -1,0 +1,71 @@
+<html>
+
+    <head></head>
+
+    <style>
+        div.box{
+            width:100px;
+            height:100px;
+            background-color:rgb(49, 25, 2);
+            position:absolute;
+        }
+
+        .container{
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            background: url('patrick drooling.png') no-repeat center center;
+        }
+
+        .relative{
+            position:relative;
+            width: 300px;
+            height: 200px;
+            background-color:red;
+        }
+
+        .absolute{
+            position:absolute;
+            width:50px;
+            height:50px;
+            background-color:lightgreen;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .center{
+            top: 50%;
+            left: 50%;
+            background-color: yellow;
+            position: relative;
+        }
+
+        .sticky{
+            position: sticky;
+            top: 0;
+            height: 100px;
+            background-color: orange;
+        }
+    </style>
+
+    <body>
+        <h2> This is a heading </h2>
+
+        <div class = "relative"><div class = "absolute"></div></div>
+        <div class = "container"> 
+            <div class = "center"> <p>My groupmates</p></div>
+        </div>
+        <p> This is a paragraph. </p>
+
+
+        <h1>Sticky position example</h1>
+        <div class = "sticky"> I will stick to the top of the page when you reach my scroll position. </div>
+        <p style = "height: 2000px; border: black; background-color: green">
+            <span style = "position: sticky; top: 150px; background-color: lightblue">
+        </p>
+
+        <h1><a href = "index.html">Back to Home</a></h1>
+    </body>
+
+
+</html>
